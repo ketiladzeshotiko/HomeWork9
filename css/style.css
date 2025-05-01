@@ -36,7 +36,7 @@
     margin: 0 auto;
     /* background-color: rgb(195, 231, 142); */
     display: flex;
-    height: 606px;
+    /* height: 606px; */
     align-items: center;
 }
 .left-block{
@@ -107,7 +107,7 @@ font-size: 14px;
 line-height: 120%;
 letter-spacing: 0%;
 color: white;
-text-align: center;
+
 align-items: center;
 justify-content: center;
 }
@@ -125,26 +125,6 @@ justify-content: center;
 }
 
 /* section2 */
-.container2{
-    max-width: 1140px;
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    background-color: #aca4e4;
-    margin-top: 197px;
-    height: 867px;
-
-}
-.topright-div{
-    display: flex;
-}
-.rowimage{
-    width: 80px;
-    height: 80px;
-}
-
-
-
 
 
 
@@ -159,24 +139,52 @@ justify-content: center;
   .secondDIV  {order: 1;}
   .firstDIV {order: 2;}
   .button-div  {order: 3;}
+  
   .container{
     flex-direction: column-reverse;
   }
   .left-block{
     width: 100%;
     margin-top: 64px;
-    align-items: center;
+    /* display: flex;
+    flex-wrap: wrap; */
     text-align: center;
+    justify-content: center;
+    align-items: center;
     
+
   }
    .right-block{
-    /* margin-top: 64px; */
     width: 100%;
-    
-    
    }
-  
-  
+  h2{
+    font-family: Circular Std;
+font-weight: 700;
+font-size: 56px;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+color: black;
+
+  }
+  span {
+    font-family: Circular Std;
+font-weight: 700;
+font-size: 56px;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+color: #F85E9F;
+  }
+  .sectionP{
+    margin-block: 43px;
+    
+  }
+  .littleDIV{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
 }
 
 
@@ -189,5 +197,27 @@ justify-content: center;
   .littleDIV{
     flex-direction: column;
   }
-  
+  .leftDIV{
+    width: 100%;
+  }
+  .rightDIV{
+    width: 100%;
+  }
+  h2{
+font-weight: 700;
+font-size: 40px;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+color: #000000;
+  }
+  span{
+    font-family: Circular Std;
+font-weight: 700;
+font-size: 40px;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+color: #F85E9F;
+  }
 }
