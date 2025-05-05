@@ -185,6 +185,9 @@ margin-top: 16px;
     height: 575px;
     
 }
+.descrp-img{
+  width: 100%;
+}
 
 .bigDIV{
     display: flex;
@@ -405,6 +408,7 @@ margin-top: 8px;
   margin-top: 64px;
 }
 
+
 /* footer */
 .footer-container{
   /* background-color: darkcyan; */
@@ -416,7 +420,7 @@ margin-top: 8px;
     column-gap: 64px;
     padding-bottom: 64px;
 }
-p{
+.footerp{
   font-family: "Abel", sans-serif;
 font-weight: 400;
 font-size: 23px;
@@ -709,7 +713,7 @@ font-family: "Inter", sans-serif;
   .descrp-img{
     width: 100%;
   }
-  p{
+  .footerp{
     font-size: 16px;
   
   }
